@@ -9,4 +9,8 @@ bb
 
 cc
 
-mian edit
+<<<<<<< HEAD
+mian feature edit
+=======
+mian feature edit
+>>>>>>> feature1
