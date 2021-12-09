@@ -18,7 +18,6 @@ logging.basicConfig(level=logging.INFO)
 def index(request):
     return web.Response(body=b'<h1>Awesome</h1>', headers={'content-type': 'text/html'})
 
-
 async def init(loop):
     app = web.Application(loop=loop)
     app.router.add_route('GET', '/', index)
